@@ -1,0 +1,22 @@
+2018/12/18 22:13:50 [error] 18472#4892: *1 CreateFile() "C:\apps\nginx\nginx-1.15.7\nginx-1.15.7/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2018/12/18 22:14:09 [error] 18472#4892: *1 CreateFile() "C:\apps\nginx\nginx-1.15.7\nginx-1.15.7/html/50x" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /50x HTTP/1.1", host: "localhost"
+2018/12/18 22:14:33 [error] 18472#4892: *1 CreateFile() "C:\apps\nginx\nginx-1.15.7\nginx-1.15.7/html/ts" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /ts HTTP/1.1", host: "localhost"
+2018/12/18 22:23:38 [notice] 14944#16552: signal process started
+2018/12/19 19:46:54 [error] 19596#21232: *1 CreateFile() "C:\apps\nginx\nginx-1.15.7\nginx-1.15.7/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2018/12/19 20:25:20 [notice] 19204#19752: signal process started
+2018/12/19 20:26:40 [notice] 14084#9504: signal process started
+2018/12/19 20:34:28 [notice] 2312#17156: signal process started
+2018/12/19 20:41:20 [notice] 12584#19284: signal process started
+2018/12/19 20:46:34 [notice] 22484#15532: signal process started
+2018/12/19 20:46:45 [error] 10244#9680: *39 CreateFile() "C:\apps\nginx\nginx-1.15.7\nginx-1.15.7/html/index" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /index HTTP/1.1", host: "localhost"
+2018/12/19 20:47:22 [notice] 3148#21116: signal process started
+2018/12/19 20:49:59 [emerg] 13588#18352: unexpected "}" in C:\apps\nginx\nginx-1.15.7\nginx-1.15.7/conf/nginx.conf:47
+2018/12/19 20:50:19 [notice] 11284#22340: signal process started
+2018/12/19 20:51:40 [error] 13452#21600: *54 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:80/", host: "localhost"
+2018/12/19 20:51:40 [error] 13452#21600: *57 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.0", upstream: "http://[::1]:80/", host: "localhost"
+2018/12/19 20:51:40 [error] 13452#21600: *57 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.0", upstream: "http://localhost/", host: "localhost"
+2018/12/19 20:52:04 [notice] 10732#21960: signal process started
+2018/12/19 20:53:32 [notice] 22184#18604: signal process started
+2018/12/19 20:54:56 [notice] 9680#22384: signal process started
+2018/12/19 20:55:13 [notice] 19276#20848: signal process started
+2018/12/19 20:58:32 [notice] 19076#19524: signal process started
