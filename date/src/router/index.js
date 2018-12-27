@@ -3,6 +3,7 @@ import Router from 'vue-router';
 import HelloWorld from '@/components/HelloWorld';
 import myDate from '@/components/date';
 import myDate1 from '@/components/date.1';
+import vux from '@/components/vux';
 
 Vue.use(Router)
 
@@ -22,6 +23,11 @@ export default new Router({
       path: '/date1',
       name: 'date1',
       component: myDate1
-    }
+    },
+    {
+      path: '/vux',
+      name: 'vux',
+      component: vux
+    },
   ]
 })
